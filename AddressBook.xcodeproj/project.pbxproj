@@ -18,6 +18,8 @@
 		C4C767B117EEE09700BFD90B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C767B017EEE09700BFD90B /* Default-568h@2x.png */; };
 		C4C767B417EEE09700BFD90B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C767B317EEE09700BFD90B /* ViewController.m */; };
 		C4C767B717EEE09700BFD90B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C767B517EEE09700BFD90B /* ViewController.xib */; };
+		C4C767BE17EEE1B700BFD90B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C767BD17EEE1B700BFD90B /* AddressBook.framework */; };
+		C4C767C017EEE1BB00BFD90B /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C767BF17EEE1BB00BFD90B /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		C4C767B217EEE09700BFD90B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C4C767B317EEE09700BFD90B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C4C767B617EEE09700BFD90B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C4C767BD17EEE1B700BFD90B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		C4C767BF17EEE1BB00BFD90B /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C767C017EEE1BB00BFD90B /* AddressBookUI.framework in Frameworks */,
+				C4C767BE17EEE1B700BFD90B /* AddressBook.framework in Frameworks */,
 				C4C7679B17EEE09700BFD90B /* UIKit.framework in Frameworks */,
 				C4C7679D17EEE09700BFD90B /* Foundation.framework in Frameworks */,
 				C4C7679F17EEE09700BFD90B /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +62,8 @@
 		C4C7678E17EEE09700BFD90B = {
 			isa = PBXGroup;
 			children = (
+				C4C767BF17EEE1BB00BFD90B /* AddressBookUI.framework */,
+				C4C767BD17EEE1B700BFD90B /* AddressBook.framework */,
 				C4C767A017EEE09700BFD90B /* AddressBook */,
 				C4C7679917EEE09700BFD90B /* Frameworks */,
 				C4C7679817EEE09700BFD90B /* Products */,

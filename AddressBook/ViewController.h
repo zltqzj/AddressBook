@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AddressBook/AddressBook.h>
+#import <AddressBookUI/AddressBookUI.h>
+@interface ViewController : UIViewController<ABPeoplePickerNavigationControllerDelegate>
 
-@interface ViewController : UIViewController
+@property(strong,nonatomic) UITextView* textView;
+
+@property(strong,nonatomic) ABPeoplePickerNavigationController* picker;
+
+-(IBAction)address:(id)sender;
+
+-(IBAction)jump2Contack:(id)sender;
 
 @end
